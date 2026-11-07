@@ -1,0 +1,1 @@
+import{e as a}from"./epub-CTyICOGQ.js";import{B as r,C as p,E as i,L as m,R as n}from"./epub-CTyICOGQ.js";import"./_commonjs-dynamic-modules-Ch8JAEIu.js";export{r as Book,p as Contents,i as EpubCFI,m as Layout,n as Rendition,a as default};
