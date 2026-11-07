@@ -107,7 +107,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - A **daily goal** (20 minutes to start; change it in Settings) and a **streak** of days in a row you met it.
 - **Books finished this year** and a **14-day chart** with your goal line.
 - Time only counts while a book is open on screen and you've turned a page, scrolled or tapped in the last 2 minutes.
-- **Reset stats** starts them over (it asks first). Your books, progress and goal stay, and the reset reaches synced devices too.
+- **Reset stats** (in Settings, under the daily goal) starts them over; it asks first. Your books, progress and goal stay, and the reset reaches synced devices too.
 
 ### And also
 
@@ -183,7 +183,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.16.0 "Clean Slate"**.
+The newest is **v1.16.1 "Tucked Away"**.
 
 
 ## About this repo
