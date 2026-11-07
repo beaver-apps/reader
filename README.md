@@ -194,7 +194,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.29.0 "Green Days"**.
+The newest is **v1.29.1 "Double Take"**.
 
 
 ## About this repo
