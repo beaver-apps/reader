@@ -189,7 +189,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.25.1 "Tap Tap"**.
+The newest is **v1.25.2 "Curtain Call"**.
 
 
 ## About this repo
