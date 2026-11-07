@@ -63,6 +63,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - **Covers** come from the book itself, and the **spine takes the cover's colour** (the closest one on the palette).
   Books without one get a coloured cover with their title on it.
 - **The beaver lives on the bookcase**: he climbs the ladder, dusts, reads or naps on a shelf edge, stacks books on the floor. Click him and he waves.
+- **Stay away two days and it gets dusty** (a week: cobwebs). He sneezes, then dusts the top and every shelf, top to bottom.
 - **Book details**: rename the title and author, change the status, pick shelves or make a new one,
   or **remove from this device** (when sync is on).
 - **Remove a book** and I carry it off: down the shelf, up the ladder, and over the top. It lands **behind the bookcase**,
@@ -112,7 +113,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 ### And also
 
 - **Languages.** I speak English, Svenska, Dansk, Norsk, Suomi, Deutsch, Español, Français, 中文 and 日本語. The first time I
-  follow your device; **Settings → Look → Language** changes it. My own book comes in your language too (yes, with my
+  follow your device; **Settings → Look → Language** changes it. My own book comes in your language too and follows you when you switch, in the same chapter (yes, with my
   typos in every one of them :P), and Chinese and Japanese get a pixel font of their own.
 - **Phone, tablet or computer.** Install it to your home screen or desktop, and it works offline. Phones get their own
   touch layout; computers keep the computer layout (with pixel tooltips) however narrow the window.
@@ -183,7 +184,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.16.1 "Tucked Away"**.
+The newest is **v1.17.0 "Dust Bunnies"**.
 
 
 ## About this repo
