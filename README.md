@@ -118,14 +118,16 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
   follow your device; **Settings → Look → Language** changes it. My own book comes in your language too and follows you when you switch, in the same chapter (yes, with my
   typos in every one of them :P), and Chinese and Japanese get a pixel font of their own.
 - **Phone, tablet or computer.** Install it to your home screen or desktop, and it works offline. Phones get their own
-  touch layout; computers keep the computer layout (with pixel tooltips) however narrow the window.
+  touch layout, held upright or sideways; computers keep the computer layout (with pixel tooltips) however narrow the window.
 
 <p align="center">
   <img src="docs/readme/screenshot-phone.png" width="260" alt="Beaver Reader on a phone: the bookcase with a little pile of removed books peeking over the top, a keep-reading bar for the beaver's book, and tabs for Shelves, Reading, Stats and Settings along the bottom">
 </p>
 
   On a phone you get tabs at the bottom (Shelves, Reading, Stats, Settings), a keep-reading bar for the book
-  you're in, and full-screen reading: tap the middle of the page and the bars go away. Installed, I fill the whole
+  you're in, and full-screen reading: tap the middle of the page and the bars go away. Turn the phone sideways and
+  the tabs move to a rail down the left edge, a book's top bar slims down to one row, two pages sit side by side like
+  a paperback, and turning it back keeps your place. Installed, I fill the whole
   screen, notch and all, and the **back button** steps out of whatever is open, one thing at a time.
 - **A quick tour** the first time you come in: I show you the bookcase, adding books, the shelves, your stats and
   Settings. **Settings → Quick tour** shows it again.
@@ -189,7 +191,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.25.4 "Knock Knock"**.
+The newest is **v1.26.0 "Paperback"**.
 
 
 ## About this repo
