@@ -63,7 +63,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - **Covers** come from the book itself, and the **spine takes the cover's colour** (the closest one on the palette).
   Books without one get a coloured cover with their title on it.
 - **The beaver lives on the bookcase**: he climbs the ladder, dusts, reads or naps on a shelf edge, stacks books on the floor. Click him and he waves.
-- **Sound effects**: little 8-bit blips for page turns, books on the shelf and the beaver (squeaks, sneezes, cheers), made on the spot with no sound files, a little different each time, and a soft tap on buttons. **Settings → Fun → Sound effects**: Off, Quiet or Normal.
+- **Sound effects**: little 8-bit blips for page turns, books on the shelf and the beaver (squeaks, sneezes, cheers), made on the spot with no sound files, a little different each time, and a soft wooden clonk on buttons. **Settings → Fun → Sound effects**: Off, Quiet or Normal.
 - **Stay away two days and it gets dusty** (a week: cobwebs). He sneezes, then dusts the top and every shelf, top to bottom.
 - **Book details**: rename the title and author, change the status, pick shelves or make a new one,
   or **remove from this device** (when sync is on). **Previous** / **Next**, the arrow keys or a swipe of the card go
@@ -189,7 +189,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.21.1 "Blue Ball"**.
+The newest is **v1.21.2 "Knock on Wood"**.
 
 
 ## About this repo
