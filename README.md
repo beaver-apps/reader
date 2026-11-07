@@ -191,7 +191,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.26.1 "Wide Open"**.
+The newest is **v1.26.2 "Elbow Room"**.
 
 
 ## About this repo
