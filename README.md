@@ -189,7 +189,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.22.0 "Into the Cloud"**.
+The newest is **v1.23.0 "Just for You"**.
 
 
 ## About this repo
