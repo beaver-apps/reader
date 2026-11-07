@@ -79,7 +79,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 
 - **Pages or scroll** for EPUBs. Turn pages with the **scroll wheel**, by **clicking the left or right side** of the page,
   with any **arrow key** or Page Up / Page Down, the arrows on screen, or a swipe. A slider at the bottom jumps anywhere in the book.
-- **A pixel page flip**: a sheet of paper sweeps over in chunky steps. On a phone, drag the page slowly and it lifts with your
+- **A pixel page flip**: one leaf lifts and folds over in chunky steps (on a two-page spread, only the right page turns). On a phone, drag the page slowly and it lifts with your
   finger. Rather have none? **Page turn → Instant** in the reading settings (Aa → Page).
 - **Full screen on phones**: tap the middle of the page and the bars slide away (they tuck themselves away when you turn a page too).
 - **Focus mode on computers**: the corners button (or **F**) goes full screen with nothing but the page. Move the mouse to
@@ -98,7 +98,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
   **Text** (size slider, serif, sans or the book's own font, tight, cozy or airy spacing, narrow, normal or wide margins,
   ragged or justified lines), **Page** (paper, texture, page turn, pages or scroll, spreads), **Night** (bedtime and the
   sleep timer) and **Voice** (pick a voice and **try it**, and the speed). Each tab can be reset.
-- **Look up a word**: select it and tap **Look up** for a short definition from Wiktionary.
+- **Look up a word**: select it and tap **Look up** for a short definition from Wiktionary, while I hunt for it in my detective cap.
 - **Bedtime**: a warmer, dimmer page after 9 or 10 pm (or right now), and a **sleep timer** for reading aloud.
 - **Paper colours**: Cream, Sand, Dusk or Night, or Auto to follow light and dark, with an optional **paper texture**.
 - **PDFs** fit the whole page or the width.
@@ -188,7 +188,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.18.0 "Back Paws"**.
+The newest is **v1.19.0 "The Case of the Missing Word"**.
 
 
 ## About this repo
