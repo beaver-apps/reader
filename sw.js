@@ -1,8 +1,9 @@
 /* Beaver Reader service worker: the app works offline, updates wait for you, notifications open the app.
    The build writes VERSION and FILES; a new build means a new VERSION, so the page shows "New version ready". */
-const VERSION = 'bf-363c2493495d';                     // filled in by the build (a hash of every file)
-const FILES = ["./","assets/Reader-nkflguQ8.js","assets/Reader-nkflguQ8.js.map","assets/_commonjs-dynamic-modules-Ch8JAEIu.js","assets/_commonjs-dynamic-modules-Ch8JAEIu.js.map","assets/beaver-book-uvmKo4C4.js","assets/beaver-book-uvmKo4C4.js.map","assets/epub-CTyICOGQ.js","assets/epub-CTyICOGQ.js.map","assets/index-CZFftvf7.js","assets/index-CZFftvf7.js.map","assets/pdf-CJ8Oj19w.js","assets/pdf-CJ8Oj19w.js.map","assets/pdf.worker.min-DrjRHSBX.js","assets/pdf.worker.min-DrjRHSBX.js.map","assets/pdf.worker.min-yatZIOMy.mjs","assets/silkscreen-latin-CtPo2yA5.woff2","assets/src-BlasuIVA.js","assets/src-BlasuIVA.js.map","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest"];
-const RELEASE = "v1.14 · Butterpaws";                     // e.g. "v2.1 · Name Tags"
+const VERSION = 'bf-8f6aecd6bb77';                     // filled in by the build (a hash of every file)
+const FILES = ["./","assets/Reader-C0YHMc4z.js","assets/Reader-C0YHMc4z.js.map","assets/_commonjs-dynamic-modules-Ch8JAEIu.js","assets/_commonjs-dynamic-modules-Ch8JAEIu.js.map","assets/beaver-book-8qdMyVrC.js","assets/beaver-book-8qdMyVrC.js.map","assets/da-CsIXjgJM.js","assets/da-CsIXjgJM.js.map","assets/da-dTfciky7.js","assets/da-dTfciky7.js.map","assets/de-CURDvTVb.js","assets/de-CURDvTVb.js.map","assets/de-DARahLsx.js","assets/de-DARahLsx.js.map","assets/epub-CTyICOGQ.js","assets/epub-CTyICOGQ.js.map","assets/es-B7alr3ef.js","assets/es-B7alr3ef.js.map","assets/es-C_BWFijf.js","assets/es-C_BWFijf.js.map","assets/fi-DFNpA97V.js","assets/fi-DFNpA97V.js.map","assets/fi-jUC731ST.js","assets/fi-jUC731ST.js.map","assets/fr-DdT5JeTV.js","assets/fr-DdT5JeTV.js.map","assets/fr-DyOlc0a6.js","assets/fr-DyOlc0a6.js.map","assets/index-CMpEBDp2.js","assets/index-CMpEBDp2.js.map","assets/ja-BZVMko3G.js","assets/ja-BZVMko3G.js.map","assets/ja-Bp9DAIx0.js","assets/ja-Bp9DAIx0.js.map","assets/nb-Boaf4gG2.js","assets/nb-Boaf4gG2.js.map","assets/nb-BpOhmmLt.js","assets/nb-BpOhmmLt.js.map","assets/pdf-CJ8Oj19w.js","assets/pdf-CJ8Oj19w.js.map","assets/pdf.worker.min-DrjRHSBX.js","assets/pdf.worker.min-DrjRHSBX.js.map","assets/pdf.worker.min-yatZIOMy.mjs","assets/silkscreen-latin-CtPo2yA5.woff2","assets/src-BlasuIVA.js","assets/src-BlasuIVA.js.map","assets/sv-BH2cI0mu.js","assets/sv-BH2cI0mu.js.map","assets/sv-ypX-588l.js","assets/sv-ypX-588l.js.map","assets/zh-Bys6EQtg.js","assets/zh-Bys6EQtg.js.map","assets/zh-Cf6ugFNH.js","assets/zh-Cf6ugFNH.js.map","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest"];
+const RELEASE = "v1.16 · Clean Slate";                     // e.g. "v2.1 · Name Tags"
+const FONTS = 'br-cjk-fonts-1';                  // the pixel CJK fonts: kept across versions, only once they're used
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES.map(f => new Request(f, { cache: 'reload' })))).then(() => {
@@ -10,7 +11,7 @@ self.addEventListener('install', e => {
   }));
 });
 self.addEventListener('activate', e => e.waitUntil(
-  caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim())
+  caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== FONTS).map(k => caches.delete(k)))).then(() => self.clients.claim())
 ));
 self.addEventListener('message', e => {
   if (e.data === 'skip-waiting') self.skipWaiting();                        // the user tapped "update"
@@ -20,6 +21,10 @@ self.addEventListener('message', e => {
 self.addEventListener('fetch', e => {
   const req = e.request, url = new URL(req.url);
   if (req.method !== 'GET' || url.origin !== self.location.origin) return;   // GitHub sync etc. go straight to the network
+  if (url.pathname.includes('/fonts/fusion-pixel/')) {                          // a CJK font: from the network once, then from the cache
+    e.respondWith(caches.open(FONTS).then(c => c.match(req).then(hit => hit || fetch(req).then(r => { if (r.ok) c.put(req, r.clone()); return r; }))));
+    return;
+  }
   e.respondWith(caches.match(req, { ignoreSearch: req.mode === 'navigate' }).then(hit => hit || fetch(req).catch(() =>
     req.mode === 'navigate' ? caches.match('index.html') : Response.error())));
 });

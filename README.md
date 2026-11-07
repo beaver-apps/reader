@@ -107,9 +107,13 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - A **daily goal** (20 minutes to start; change it in Settings) and a **streak** of days in a row you met it.
 - **Books finished this year** and a **14-day chart** with your goal line.
 - Time only counts while a book is open on screen and you've turned a page, scrolled or tapped in the last 2 minutes.
+- **Reset stats** starts them over (it asks first). Your books, progress and goal stay, and the reset reaches synced devices too.
 
 ### And also
 
+- **Languages.** I speak English, Svenska, Dansk, Norsk, Suomi, Deutsch, Español, Français, 中文 and 日本語. The first time I
+  follow your device; **Settings → Look → Language** changes it. My own book comes in your language too (yes, with my
+  typos in every one of them :P), and Chinese and Japanese get a pixel font of their own.
 - **Phone, tablet or computer.** Install it to your home screen or desktop, and it works offline. Phones get their own
   touch layout; computers keep the computer layout (with pixel tooltips) however narrow the window.
 
@@ -179,7 +183,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.14.0 "Butterpaws"**.
+The newest is **v1.16.0 "Clean Slate"**.
 
 
 ## About this repo
