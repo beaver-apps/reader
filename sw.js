@@ -1,8 +1,8 @@
 /* Beaver Reader service worker: the app works offline, updates wait for you, notifications open the app.
    The build writes VERSION and FILES; a new build means a new VERSION, so the page shows "New version ready". */
-const VERSION = 'bf-f8d4adce794f';                     // filled in by the build (a hash of every file)
-const FILES = ["./","assets/Reader-9hWqk4Su.js","assets/Reader-9hWqk4Su.js.map","assets/_commonjs-dynamic-modules-Ch8JAEIu.js","assets/_commonjs-dynamic-modules-Ch8JAEIu.js.map","assets/beaver-book-C9m-pexI.js","assets/beaver-book-C9m-pexI.js.map","assets/da-CP1YPWOf.js","assets/da-CP1YPWOf.js.map","assets/da-CsIXjgJM.js","assets/da-CsIXjgJM.js.map","assets/de-CURDvTVb.js","assets/de-CURDvTVb.js.map","assets/de-DaPAPgqT.js","assets/de-DaPAPgqT.js.map","assets/epub-CTyICOGQ.js","assets/epub-CTyICOGQ.js.map","assets/es-B7alr3ef.js","assets/es-B7alr3ef.js.map","assets/es-DOF4ZH0V.js","assets/es-DOF4ZH0V.js.map","assets/fi-DFNpA97V.js","assets/fi-DFNpA97V.js.map","assets/fi-urxPnV29.js","assets/fi-urxPnV29.js.map","assets/fr-BkrpTGWf.js","assets/fr-BkrpTGWf.js.map","assets/fr-DyOlc0a6.js","assets/fr-DyOlc0a6.js.map","assets/index-Bcgkvp1z.js","assets/index-Bcgkvp1z.js.map","assets/ja-Bp9DAIx0.js","assets/ja-Bp9DAIx0.js.map","assets/ja-Brjj_eWP.js","assets/ja-Brjj_eWP.js.map","assets/nb-BDYH0ne8.js","assets/nb-BDYH0ne8.js.map","assets/nb-Boaf4gG2.js","assets/nb-Boaf4gG2.js.map","assets/pdf-CJ8Oj19w.js","assets/pdf-CJ8Oj19w.js.map","assets/pdf.worker.min-DrjRHSBX.js","assets/pdf.worker.min-DrjRHSBX.js.map","assets/pdf.worker.min-yatZIOMy.mjs","assets/silkscreen-latin-CtPo2yA5.woff2","assets/src-BlasuIVA.js","assets/src-BlasuIVA.js.map","assets/sv-DxPIwSls.js","assets/sv-DxPIwSls.js.map","assets/sv-ypX-588l.js","assets/sv-ypX-588l.js.map","assets/zh-CWZo63GG.js","assets/zh-CWZo63GG.js.map","assets/zh-Cf6ugFNH.js","assets/zh-Cf6ugFNH.js.map","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest"];
-const RELEASE = "v1.17 · Dust Bunnies";                     // e.g. "v2.1 · Name Tags"
+const VERSION = 'reader-076d4f56b3f7';                     // filled in by the build (a hash of every file)
+const FILES = ["./","assets/Reader-KqqQVtXR.js","assets/Reader-KqqQVtXR.js.map","assets/_commonjs-dynamic-modules-Ch8JAEIu.js","assets/_commonjs-dynamic-modules-Ch8JAEIu.js.map","assets/beaver-book-9TrD2EhD.js","assets/beaver-book-9TrD2EhD.js.map","assets/da-CjRAAoU7.js","assets/da-CjRAAoU7.js.map","assets/da-CsIXjgJM.js","assets/da-CsIXjgJM.js.map","assets/de-C3sPrbjC.js","assets/de-C3sPrbjC.js.map","assets/de-CURDvTVb.js","assets/de-CURDvTVb.js.map","assets/epub-CTyICOGQ.js","assets/epub-CTyICOGQ.js.map","assets/es-B7alr3ef.js","assets/es-B7alr3ef.js.map","assets/es-fB8Scfp6.js","assets/es-fB8Scfp6.js.map","assets/fi-CyXeDNWv.js","assets/fi-CyXeDNWv.js.map","assets/fi-DFNpA97V.js","assets/fi-DFNpA97V.js.map","assets/fr-BfLMOlWW.js","assets/fr-BfLMOlWW.js.map","assets/fr-DyOlc0a6.js","assets/fr-DyOlc0a6.js.map","assets/index-B99TtY7k.js","assets/index-B99TtY7k.js.map","assets/ja-Bp9DAIx0.js","assets/ja-Bp9DAIx0.js.map","assets/ja-C401ta9G.js","assets/ja-C401ta9G.js.map","assets/nb-Boaf4gG2.js","assets/nb-Boaf4gG2.js.map","assets/nb-Dw_XMlre.js","assets/nb-Dw_XMlre.js.map","assets/pdf-CJ8Oj19w.js","assets/pdf-CJ8Oj19w.js.map","assets/pdf.worker.min-DrjRHSBX.js","assets/pdf.worker.min-DrjRHSBX.js.map","assets/pdf.worker.min-yatZIOMy.mjs","assets/silkscreen-latin-CtPo2yA5.woff2","assets/src-BlasuIVA.js","assets/src-BlasuIVA.js.map","assets/sv-DpLIQfFT.js","assets/sv-DpLIQfFT.js.map","assets/sv-ypX-588l.js","assets/sv-ypX-588l.js.map","assets/zh-Cf6ugFNH.js","assets/zh-Cf6ugFNH.js.map","assets/zh-Dlf_SshE.js","assets/zh-Dlf_SshE.js.map","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest"];
+const RELEASE = "v1.18 · Back Paws";                     // e.g. "v2.1 · Name Tags"
 const FONTS = 'br-cjk-fonts-1';                  // the pixel CJK fonts: kept across versions, only once they're used
 
 self.addEventListener('install', e => {
@@ -10,8 +10,18 @@ self.addEventListener('install', e => {
     if (!self.registration.active) return self.skipWaiting();        // very first install: take over right away
   }));
 });
+// old versions go, but only ours: Beaver Focus lives on the same origin (beaver-apps.github.io/focus/) and its caches
+// share this list. Ours are reader-...; before 1.18 both apps named theirs bf-..., so an old bf- cache is ours only
+// if it holds our own start page.
+const ours = async k => {
+  if (k === VERSION || k === FONTS) return false;
+  if (k.startsWith('reader-')) return true;
+  if (!k.startsWith('bf-')) return false;
+  const c = await caches.open(k);
+  return (await c.keys()).some(r => r.url === self.registration.scope);
+};
 self.addEventListener('activate', e => e.waitUntil(
-  caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== FONTS).map(k => caches.delete(k)))).then(() => self.clients.claim())
+  caches.keys().then(keys => Promise.all(keys.map(async k => { if (await ours(k)) await caches.delete(k); }))).then(() => self.clients.claim())
 ));
 self.addEventListener('message', e => {
   if (e.data === 'skip-waiting') self.skipWaiting();                        // the user tapped "update"

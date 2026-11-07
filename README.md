@@ -65,7 +65,8 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - **The beaver lives on the bookcase**: he climbs the ladder, dusts, reads or naps on a shelf edge, stacks books on the floor. Click him and he waves.
 - **Stay away two days and it gets dusty** (a week: cobwebs). He sneezes, then dusts the top and every shelf, top to bottom.
 - **Book details**: rename the title and author, change the status, pick shelves or make a new one,
-  or **remove from this device** (when sync is on).
+  or **remove from this device** (when sync is on). **Previous** / **Next**, the arrow keys or a swipe of the card go
+  through every book on the bookcase, in its order.
 - **Remove a book** and I carry it off: down the shelf, up the ladder, and over the top. It lands **behind the bookcase**,
   where you can see the pile peeking out. Tap the pile (or **Settings → Behind the bookcase**) to **put a book back**,
   with your place, highlights and notes, or to **delete it for good**.
@@ -123,7 +124,10 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 </p>
 
   On a phone you get tabs at the bottom (Shelves, Reading, Stats, Settings), a keep-reading bar for the book
-  you're in, and full-screen reading: tap the middle of the page and the bars go away.
+  you're in, and full-screen reading: tap the middle of the page and the bars go away. Installed, I fill the whole
+  screen, notch and all, and the **back button** steps out of whatever is open, one thing at a time.
+- **A quick tour** the first time you come in: I show you the bookcase, adding books, the shelves, your stats and
+  Settings. **Settings → Quick tour** shows it again.
 - **Light and dark** (or Auto), and calmer motion when your device asks for reduced motion.
 - **Sync between devices** through a private GitHub repo, if you want it (see below).
 
@@ -184,7 +188,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.17.0 "Dust Bunnies"**.
+The newest is **v1.18.0 "Back Paws"**.
 
 
 ## About this repo
