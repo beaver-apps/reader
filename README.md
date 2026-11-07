@@ -56,6 +56,7 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - **Search** titles and authors as you type: matching books light up and stick out, the rest go dim, and typos are fine
   ("hobit" finds *The Hobbit*).
 - **Sort** by recent, title or author, or **drag books** into your own order (**Mine**). Hold a moment on a phone, then drag.
+- **Group** the bookcase (in the Sort menu) by status, author, your own shelves or year; Reading now stays on top.
   Drop a book on another shelf to move it there, like from To read to Finished.
 - **My own book is waiting for you.** The first time you open the app, *Logs, Lines & Little Naps* by The Beaver
   is already on the shelf: six short chapters about reading habits, highlights, shelves and sleepy eyes. Removed it?
@@ -191,7 +192,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.26.2 "Elbow Room"**.
+The newest is **v1.27.0 "Birds of a Feather"**.
 
 
 ## About this repo
