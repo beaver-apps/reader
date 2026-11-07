@@ -71,7 +71,8 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
   through every book on the bookcase, in its order.
 - **Remove a book** and I carry it off: down the shelf, up the ladder, and over the top. It lands **behind the bookcase**,
   where you can see the pile peeking out. Tap the pile (or **Settings → Behind the bookcase**) to **put a book back**,
-  with your place, highlights and notes, or to **delete it for good**.
+  with your place, highlights and notes, or to **delete it for good**. A search box there finds a book by title or
+  author, typos and all, closest match first.
 
 <p align="center">
   <img src="docs/readme/screenshot-reader.png" width="640" alt="A book open in the reader: buttons for the library, contents, notes, bookmark, read aloud and text settings along the top, the page on cream paper in the middle, and the progress slider with the reading beaver along the bottom">
@@ -192,7 +193,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.27.2 "True Colours"**.
+The newest is **v1.28.0 "Lost and Found"**.
 
 
 ## About this repo
