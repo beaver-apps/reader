@@ -51,11 +51,15 @@ When you turn a page, I turn mine. Reading is my favrite thing to do togehter, b
 - **Add books** with the button, or drag and drop EPUB and PDF files anywhere on the library.
 - **A pixel bookcase**: Reading now faces out on the top shelf with your progress, then rows of spines for
   **To read**, **Finished** and **your own shelves** (a book can sit on as many as you like; **+ New shelf** adds a row).
-  Books move to Reading when you open them, and to Finished when you reach the end.
+  Books move to Reading when you open them, and to Finished when you reach the end. Gave up on one? Mark it
+  **Dropped** and it gets its own row (open it again and it's back in Reading).
+- **Stars and reviews**: give a book 1 to 5 stars and a few words in its details. When you finish or drop a book I ask
+  how it was (skip if you like). The stars and the start of your review show when you tap the book, and **Sort → Rating**
+  puts the most stars first.
 - **Tap a spine** and the book slides out with its cover, how far you are, and **Read** / **Details**.
 - **Search** titles and authors as you type: matching books light up and stick out, the rest go dim, and typos are fine
   ("hobit" finds *The Hobbit*).
-- **Sort** by recent, title or author, or **drag books** into your own order (**Mine**). Hold a moment on a phone, then drag.
+- **Sort** by recent, title, author or rating, or **drag books** into your own order (**Mine**). Hold a moment on a phone, then drag.
 - **Group** the bookcase (in the Sort menu) by status, author, your own shelves or year; Reading now stays on top.
   Drop a book on another shelf to move it there, like from To read to Finished.
 - **My own book is waiting for you.** The first time you open the app, *Logs, Lines & Little Naps* by The Beaver
@@ -194,7 +198,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.30.3 "Snug Fit"**.
+The newest is **v1.31.0 "Gold Stars"**.
 
 
 ## About this repo
