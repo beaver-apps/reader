@@ -194,7 +194,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.30.0 "Two Tugs"**.
+The newest is **v1.30.1 "Tidy Tails"**.
 
 
 ## About this repo
