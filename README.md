@@ -198,7 +198,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.32.1 "Room to Breathe"**.
+The newest is **v1.32.2 "Stay Put"**.
 
 
 ## About this repo
