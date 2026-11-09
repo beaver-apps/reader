@@ -198,7 +198,7 @@ Books bigger than 45 MB stay on the device you added them on. Your theme and tex
 ## Versions
 
 Every update has a name. You can see them all in **Settings → What's new**.
-The newest is **v1.31.1 "Clear Print"**.
+The newest is **v1.31.2 "Whole Words"**.
 
 
 ## About this repo
